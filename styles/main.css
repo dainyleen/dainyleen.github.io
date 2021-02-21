@@ -1,0 +1,39 @@
+/* These are for my homepage */
+body {
+    background-color: #f4f3ef;
+    color: black;
+  }
+  
+  header {
+    background-color: #faa363;
+  }
+  
+  footer {
+    background-color: #faa363;
+    padding: 1px;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  #introduction {
+    border: 3px solid teal;
+    padding: 15px;
+  }
+  
+  /* These are for the blog posts */
+  #post-one {
+    padding: 5px;
+  }
+  
+  #post-two {
+    padding: 5px;
+  }
+  
+  .post-header {
+    border: 3px solid teal;
+    padding: 3px;
+  }
+  
