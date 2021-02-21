@@ -1,9 +1,92 @@
+<!DOCTYPE html>
+
 <html>
+
   <head>
-    <title>My blog</title>
+    <meta charset="UTF-8">
+    <title>It's Me, Dainyleen</title>
+    <link href="./styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+      
+    <div>  <!--This is me practicing making a comment on html-->
+      <header id="introduction">
+        <h1>Hello! It's Me, Dainyleen</h1>
+        <p>A simple blog about my journey to becoming a software developer</p>
+        
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>Let's Get Technical</li>
+          <li>Core-Strengthening</li>
+          <li><a href="#contact">Get In Touch</a></li>
+        </ul>
+      </nav>
+      </header>
+
+      <div>
+        <blockquote>
+          "Well, as a professional oboist, I have noticed a lot of parallels between studying music and studying programming. 
+          Both require a lot of focus, discipline and perseverance to become great." - <cite><a href="https://www.freecodecamp.org/news/how-my-musical-training-helped-me-learn-how-to-code/" target="_blank">Jessica Wilkins</a></cite>
+        </blockquote>
+      </div>
+
+      <main>
+       
+        <section>
+          <h2>About This Site</h2>
+          <p>I am learning how to code for the first time in my life. In here, you'll find two sets of blog:</p> 
+          <p>The first one is all about the technical side of programming. The challenge is to present the new concepts I am learning each week, in such a way that my "non-techy" friend will understand.</p>
+          <p>The second one is all about how I, as a novice programmer, would develop soft skills for me to succeed in any workplace setting after EDA Bootcamp.</p>
+        </section>
+        
+        <section>
+          <h2>Latest Blog Posts</h2>
+          
+          <article>
+            <header id="post-one">
+              <h3>What Is Emotional Intelligence?</h3>
+              <p>Emotional Intelligence, also known as Emotional Quotient(EQ), is the ablity to manage your own emotions..</p><a href="./core-blog/sprint3-cultural.html">Read more</a>
+            </header>
+
+            <figure>
+              <img src="images/EQ.jpg" alt="both IQ and EQ are crucial to every man">
+              <figcaption>
+                This image is downloaded from Shutterstock - Stock Photos
+              </figcaption>
+            </figure>
+          </article>
+          
+          
+          <article>
+            <header id="post-two">             
+              <h3>ID Versus CLASS</h3>
+              <p>Designing a website using CSS, programmers use selectors that help styling different elements in html..</p><a href="#">Read more</a>
+            </header> 
+
+            <figure>
+              <img src="images/CSS.jpg" alt="CSS is Life">
+              <figcaption>
+                This image is downloaded from Shutterstock - Stock Photos
+              </figcaption>
+            </figure>
+          </article>
+
+        </section>
+
+        <section id="contact">
+          <h2>Get In Touch</h2>
+          <p><strong>Slack:</strong> "dainy_veloria_whai_2021"</p>
+          <p><strong>Location:</strong> Auckland, New Zealand</p>
+        </section>
+        
+      </main>
+      
+      <footer>
+        <p><strong>&copy;2021 It's Me, Dainyleen</strong></p> 
+      </footer>
+      
+    </div>
   </body>
 </html>
