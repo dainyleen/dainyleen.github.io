@@ -1,39 +1,110 @@
+/* This is a universal selector */
+* {
+ box-sizing: border-box; 
+}
+
 /* These are for my homepage */
 body {
-    background-color: #f4f3ef;
-    color: black;
-  }
-  
-  header {
-    background-color: #faa363;
-  }
-  
-  footer {
-    background-color: #faa363;
-    padding: 1px;
-  }
-  
-  a {
-    color: teal;
-    text-decoration: none;
-  }
-  
-  #introduction {
-    border: 3px solid teal;
-    padding: 15px;
-  }
-  
-  /* These are for the blog posts */
-  #post-one {
-    padding: 5px;
-  }
-  
-  #post-two {
-    padding: 5px;
-  }
-  
-  .post-header {
-    border: 3px solid teal;
-    padding: 3px;
-  }
-  
+  background-color: #f4f3ef;
+  color: black;
+  font-family: Verdana;
+}
+
+p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+header {
+  background-color: #faa363;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: snow;
+  border: 3px black solid;
+}
+
+nav {
+  display: inline-block;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+footer {
+  width: 300px;
+  padding: 1px;
+  border: 0 solid teal;
+  margin: 50px auto 10px;
+  color:teal; 
+  font-size: .8rem;
+  text-align: center;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+figcaption {
+  font-size: .6rem;
+}
+
+#introduction {
+  height: 20vh;
+  border: 5px solid teal;
+  padding-top: 10px;
+  width: 100%;
+  max-width: 1440px;
+ 
+}
+
+/* These are for the blog posts */
+
+img {
+  width: 100%;
+  max-width: 552px;
+}
+#post-one {
+  padding: 2rem;
+  text-align: left;
+  max-width: 1432px;
+  width: 100%;
+  height: auto; 
+}
+
+#post-two {
+  padding: 2rem;
+  text-align: left;
+  max-width: 1432px;
+  width: 100%;
+  height: auto;
+}
+
+.latest-one {
+  border: 4px solid teal;
+  max-width: 1440px;
+  width: 100%
+}
+
+.latest-two {
+  border: 4px solid teal;
+  max-width: 1440px;
+  width: 100%
+
+}
+
+.post-header {
+  border: 3px solid teal;
+  padding: 3px;
+  text-align: center;
+}
+
+.highlighted {
+  font-weight: bold;
+  color: teal;
+  font-size: 1.5rem;
+}
