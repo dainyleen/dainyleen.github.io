@@ -28,6 +28,23 @@ ul li {
   border: 3px black solid;
 }
 
+.main-nav {
+  width: 100%;
+  background: #faa363;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
 nav {
   display: inline-block;
   letter-spacing: 4px;
