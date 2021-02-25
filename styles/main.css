@@ -28,7 +28,7 @@ header {
 }
 
 .nav {
-  display: flex;
+  display: block;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
@@ -84,7 +84,6 @@ img {
 #post-one {
   padding: 2rem;
   text-align: left;
-  max-width: 1432px;
   width: 100%;
   height: auto; 
 }
@@ -92,7 +91,6 @@ img {
 #post-two {
   padding: 2rem;
   text-align: left;
-  max-width: 1432px;
   width: 100%;
   height: auto;
 }
@@ -120,4 +118,8 @@ img {
   font-size: 1.5rem;
 }
 
-@media screen (min-width: 320px) and (max-width: 768px);
+@media screen and (min-width: 600px) {
+  .nav {
+    display: flex;
+  }
+}
