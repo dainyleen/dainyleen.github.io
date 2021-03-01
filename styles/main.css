@@ -3,11 +3,42 @@
  box-sizing: border-box; 
 }
 
-/* These are for my homepage */
-body {
-  background-color: #f4f3ef;
+/* Flexbox-CSS for blog posts */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+  margin: 45px auto;
+	padding: 10px;
   color: black;
-  font-family: Verdana;
+  align-items: center; 
+}
+
+.container a {
+  color: white;
+}
+
+.blog-container {
+  flex-grow: 1;
+  flex-basis: 200px;
+	padding: 15px;
+	margin: 5px;	
+	background: #f3753b;
+	border-radius: 3px;
+}
+
+
+/* These are for my homepage */
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: White;
+  color: black;
+  font-weight: 400;
+  line-height: 1.5;
+  background: url(../images/background.jpg) center / cover;
 }
 
 p {
@@ -15,20 +46,16 @@ p {
   margin-bottom: 1.5rem;
 }
 
-header {
-  background-color: #faa363;
-  text-align: center;
-}
-
 .main-nav {
   width: 100%;
   padding: 10px;
   min-height: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .nav {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
@@ -37,22 +64,19 @@ header {
 }
 
 #about {
+  padding: 40vh 5rem;
+  background-color: #f3753b;
+  color: white;
+  margin: -1rem -1rem -1rem -1rem;
   text-align: center;
   font-style: italic;
-  font-family: 'Courier New', Courier, monospace;
-}
-nav {
-  display: inline-block;
-  letter-spacing: 4px;
-  font-weight: bold;
+  padding-top: 300px;
+  letter-spacing: 2px;
 }
 
 footer {
-  width: 300px;
-  padding: 1px;
-  border: 0 solid teal;
   margin: 50px auto 10px;
-  color:teal; 
+  color: black;
   font-size: .8rem;
   text-align: center;
 }
@@ -60,14 +84,22 @@ footer {
 #contact {
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 1;
+  letter-spacing: 1px;
 }
 
-.blog-post {
-  margin-top: 50px;
+.link {
+  color: white;
+}
+
+a:hover {
+  color: #f3753b;
 }
 
 a {
-  color: teal;
+  color: black;
   text-decoration: none;
 }
 
@@ -75,51 +107,27 @@ figcaption {
   font-size: .6rem;
 } 
 
-/* These are for the blog posts */
+blockquote {
+  font-family: 'Gotham Rounded';
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+blockquote a {
+  color: #f3753b;
+}
 
 img {
-  width: 100%;
-  max-width: 552px;
-}
-#post-one {
-  padding: 2rem;
-  text-align: left;
-  width: 100%;
-  height: auto; 
-}
-
-#post-two {
-  padding: 2rem;
-  text-align: left;
   width: 100%;
   height: auto;
 }
 
-.latest-one {
-  border: 4px solid teal;
-  width: 100%
-}
 
-.latest-two {
-  border: 4px solid teal;
-  width: 100%
 
-}
+/* These are for the blog posts */
 
-.post-header {
-  border: 3px solid teal;
-  padding: 3px;
-  text-align: center;
-}
 
-.highlighted {
-  font-weight: bold;
-  color: teal;
-  font-size: 1.5rem;
-}
 
-@media screen and (min-width: 600px) {
-  .nav {
-    display: flex;
-  }
-}
+
+
